@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>CMSC320_Final_Project (1)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>CMSC320_Final_Project</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7528,16 +7528,40 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Prediction-of-Fake-vs.-Real-Job-Postings"><strong>Prediction of Fake vs. Real Job Postings</strong><a class="anchor-link" href="#Prediction-of-Fake-vs.-Real-Job-Postings">¶</a></h1><h3 id="Spring-2025-Data-Science-Project"><em>Spring 2025 Data Science Project</em><a class="anchor-link" href="#Spring-2025-Data-Science-Project">¶</a></h3><p><strong>Collaborators</strong>: Claire Chen, Rachel Kim, Ilayda Dogan, Hellen Ou, Aidana Aibek, Joshua Au</p>
-<p><strong>Contributions</strong>:</p>
-<p>A: Project idea</p>
-<p>B: Dataset Curation and Preprocessing</p>
-<p>C: Data Exploration and Summary Statistics</p>
-<p>D: ML Algorithm Design/Development</p>
-<p>E: ML Algorithm Training and Test Data Analysis</p>
-<p>F: Visualization, Result Analysis, Conclusion</p>
-<p>G: Final Tutorial Report Creation</p>
-<p>H: Additional (not listed above)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Prediction-of-Fake-vs.-Real-Job-Postings"><strong>Prediction of Fake vs. Real Job Postings</strong><a class="anchor-link" href="#Prediction-of-Fake-vs.-Real-Job-Postings">¶</a></h1><h3 id="Spring-2025-Data-Science-Project"><em>Spring 2025 Data Science Project</em><a class="anchor-link" href="#Spring-2025-Data-Science-Project">¶</a></h3><h4 id="Collaborators:"><strong>Collaborators</strong>:<a class="anchor-link" href="#Collaborators:">¶</a></h4><p>Claire Chen, Rachel Kim, Ilayda Dogan, Hellen Ou, Aidana Aibek, Joshua Au</p>
+<h4 id="Contributions:"><strong>Contributions</strong>:<a class="anchor-link" href="#Contributions:">¶</a></h4><p><strong>A: Project idea</strong></p>
+<p><em>Claire</em>: Conducted background research on topic, found related datasets on Kaggle, compiled and created list of sources and datasets, wrote reasoning why real vs. fake job postings was top choice.</p>
+<p><strong>B: Dataset Curation and Preprocessing</strong></p>
+<p><em>Ilayda</em>: Downloaded the datasets from kaggle, compiled them into pandas dataframes, analyzed the dataset for size, columns, shape, datatypes, and missing values, filled in/dropped missing values accordingly.</p>
+<p><em>Rachel</em>: Standardized format of locations</p>
+<p><strong>C: Data Exploration and Summary Statistics</strong></p>
+<p><em>Joshua</em>: Did all items related to conclusion 1 of the data exploration</p>
+<p><em>Rachel</em>: Wrote code and explanations for conclusion 2</p>
+<p><em>Claire</em>: Completed all items and analysis related to conclusion 3</p>
+<p><strong>D: ML Algorithm Design/Development</strong></p>
+<p><em>Joshua</em>: Created feature matrix from dataframe and split data into dataloaders</p>
+<p><strong>E: ML Algorithm Training and Test Data Analysis</strong></p>
+<p><em>Ilayda</em>: Created/implemented the neural network structure and ran it on the dataset, and then collected and displayed the loss, train and test accuracy, and then precision, recall, and f1 scores for each class.</p>
+<p><em>Hellen</em>: Implemented Logistic Regression, KNN, Decision Tree, and Random Forest models using k-fold cross-validation. Generated classification reports to evaluate model performance on the test data.</p>
+<p><em>Rachel</em>: Added PCA to reduce dimensionality of data</p>
+<p><strong>F: Visualization, Result Analysis, Conclusion</strong></p>
+<p><em>Aidana</em>: Translated results into key real-world conclusions and recommendations for this project moving forward</p>
+<p><em>Rachel</em>: Added explanations to all steps/code, wrote part of the introduction, and cited both datasets</p>
+<p><em>Claire</em>: Developed confusion matrix, wrote insights and analysis of visualizations and data</p>
+<p><strong>G: Final Tutorial Report Creation</strong></p>
+<p><em>Claire</em>: Conducted research and cited sources in explanations, formatted header and sections.</p>
+<p><strong>H: Additional (not listed above)</strong></p>
+<p><em>Claire</em>: Created GitHub repository, submitted 1st and 2nd checkpoints, created GitHub page for final submission, submitted final submission, created group chat and coordinated tasks.</p>
 </div>
 </div>
 </div>
@@ -7565,7 +7589,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># necessary imports</span>
@@ -7703,7 +7727,7 @@ Successfully installed opendatasets-0.1.22
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">od</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s2">"https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction"</span><span class="p">)</span>
@@ -7749,7 +7773,7 @@ Dataset URL: https://www.kaggle.com/datasets/srisaisuhassanisetty/fake-job-posti
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s2">"/content/drive"</span><span class="p">)</span>
@@ -7783,7 +7807,7 @@ Dataset URL: https://www.kaggle.com/datasets/srisaisuhassanisetty/fake-job-posti
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">df_1</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
@@ -8196,7 +8220,7 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">df_1</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -8210,7 +8234,7 @@ dtype: object
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8318,7 +8342,7 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1">#Columns with a majority NAs: department, salary_range</span>
@@ -8344,7 +8368,7 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span>  <span class="c1">#currently I filled it in this way because I'm wondering if the data being missing could actually help in predicting that the posting is fraudulent</span>
@@ -8463,7 +8487,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Display all unique locations in the dataset</span>
@@ -8939,7 +8963,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">df_1</span><span class="p">[</span><span class="s2">"fraudulent"</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -8953,7 +8977,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9012,7 +9036,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">groups</span> <span class="o">=</span> <span class="n">df_1</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">"fraudulent"</span><span class="p">,</span> <span class="s2">"has_company_logo"</span><span class="p">])[</span><span class="s2">"job_id"</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">rename</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span> <span class="s2">"Yes"</span><span class="p">,</span> <span class="mi">0</span><span class="p">:</span> <span class="s2">"No"</span><span class="p">})</span>
@@ -9029,7 +9053,7 @@ For example, when doing 'df[col].method(value, inplace=True)', try using 'df.met
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>Text(0.5, 0, 'Is Fraudulent')</pre>
 </div>
@@ -9062,7 +9086,7 @@ We will perform a chi-squared test to determine if fraudulence and required educ
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Removed "Not specified" because there is already a value "Unspecified" for required_education</span>
@@ -9079,7 +9103,7 @@ We will perform a chi-squared test to determine if fraudulence and required educ
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div class="colab-df-container" id="df-562386d4-671e-48da-8dad-da1113e7e9a3">
 <div>
@@ -9442,7 +9466,7 @@ We will perform a chi-squared test to determine if fraudulence and required educ
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">crosstab</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'bar'</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
@@ -9475,7 +9499,7 @@ We will perform a chi-squared test to determine if fraudulence and required educ
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">res</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">stats</span><span class="o">.</span><span class="n">chi2_contingency</span><span class="p">(</span><span class="n">crosstab</span><span class="p">)</span>
@@ -9527,7 +9551,7 @@ We will perform a t-test to determine whether there is a statistically significa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Split the fradulent column into two series, fraudulent and non-fraudlent,</span>
@@ -9679,7 +9703,7 @@ Legitimate skew: 4.609646174031776
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">df_1</span><span class="p">[[</span><span class="s1">'telecommuting'</span><span class="p">,</span> <span class="s1">'has_company_logo'</span><span class="p">,</span> <span class="s1">'has_questions'</span><span class="p">,</span> <span class="s1">'employment_type'</span><span class="p">,</span> <span class="s1">'required_experience'</span><span class="p">,</span> <span class="s1">'required_education'</span><span class="p">,</span> <span class="s1">'industry'</span><span class="p">,</span> <span class="s1">'function'</span><span class="p">]]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -9825,7 +9849,7 @@ weighted avg       0.97      0.97      0.97      3576
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Want (n,d) matrix where n is the number of examples and d is the number of features</span>
@@ -9936,7 +9960,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Create the splits</span>
@@ -10071,7 +10095,7 @@ Feature Dimension After PCA: (17880, 2)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="c1"># Define the model</span>
@@ -10111,7 +10135,7 @@ Feature Dimension After PCA: (17880, 2)
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">criterion</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BCEWithLogitsLoss</span><span class="p">()</span>
@@ -10271,7 +10295,7 @@ Finished Training
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">eval</span><span class="p">()</span>
@@ -10340,7 +10364,7 @@ Test Loss: 0.35504389509774875
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">losses</span><span class="p">)</span>
@@ -10382,7 +10406,7 @@ Test Loss: 0.35504389509774875
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">eval</span><span class="p">()</span>
@@ -10434,7 +10458,7 @@ Test Loss: 0.35504389509774875
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">all_labels</span><span class="p">,</span> <span class="n">all_preds</span><span class="p">,</span> <span class="n">target_names</span><span class="o">=</span><span class="p">[</span><span class="s1">'Real'</span><span class="p">,</span> <span class="s1">'Fake'</span><span class="p">]))</span>
@@ -10480,7 +10504,7 @@ weighted avg       0.96      0.97      0.97      3576
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-python"><pre><span></span><span class="n">ConfusionMatrixDisplay</span><span class="o">.</span><span class="n">from_predictions</span><span class="p">(</span>
@@ -10518,7 +10542,7 @@ weighted avg       0.96      0.97      0.97      3576
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Insights-&amp;-Conclusions"><strong>Insights &amp; Conclusions</strong><a class="anchor-link" href="#Insights-&amp;-Conclusions">¶</a></h2>
+<h2 id="Insights"><strong>Insights</strong><a class="anchor-link" href="#Insights">¶</a></h2>
 </div>
 </div>
 </div>
@@ -10545,6 +10569,32 @@ weighted avg       0.96      0.97      0.97      3576
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Real-World-Conclusions"><strong>Real World Conclusions</strong><a class="anchor-link" href="#Real-World-Conclusions">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<ul>
+<li>Fake job postings are less likely to include the company's logo.</li>
+<li>Fake job postings are more likely to require only high school education.</li>
+<li>Fake job postings are more likely to have less variety when it comes to telecommunication options.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Going-Forward"><strong>Going Forward</strong><a class="anchor-link" href="#Going-Forward">¶</a></h2>
 </div>
 </div>
@@ -10556,7 +10606,8 @@ weighted avg       0.96      0.97      0.97      3576
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>As mentioned above, our model prioritizes precision at the expense of recall. However, an ideal detection system should prioritize recall over precision because it's better to flag a legitimate posting as fraudelent than missing actual scams and compromising user data and privacy. There are many other features that can be taken into account, including (NOT FINISHED)</p>
+<p>As mentioned above, our model prioritizes precision at the expense of recall. However, an ideal detection system should prioritize recall over precision because it's better to flag a legitimate posting as fraudulent than missing actual scams and compromising user data and privacy. One way this could be remedied is through lowering the classification threshold and then adjusting it based on the results and user feedback.</p>
+<p>Some potential enhancements include more sophisticated detection of visual indicators (like comparison between fonts and logos to the company's actual branding), structural inconsistencies (work requirements that contradict labor laws), and linguistic markers (urgent or overly positive tone, non-professional wording or slang).</p>
 </div>
 </div>
 </div>
